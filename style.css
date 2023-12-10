@@ -1,0 +1,38 @@
+body {
+    background-color: #000000;
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #5372d2;
+    border-color: #2f74dc;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
